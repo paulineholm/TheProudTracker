@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: linear-gradient(#ff00001a, #edad1900, #edd1190e, #339b1e1a, #1462a70c, #9e479b04); */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: "Gilbert-Color";
+  src: local("Gilbert-Color"),
+   url("./fonts/Gilbert-Color.otf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Gilbert-Bold";
+    src: local("Gilbert-Bold"),
+     url("./fonts/Gilbert-Bold.otf") format("truetype");
+    }
+
+*{
+  box-sizing: border-box;
+}
